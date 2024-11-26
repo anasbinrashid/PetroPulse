@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="835.0" style="-fx-background-color: #080838;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="worker.WorkerPerformStationOperationsController">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="1.0" prefHeight="124.0" prefWidth="835.0" style="-fx-background-color: #20204b;">
+         <children>
+            <Label layoutX="206.0" layoutY="45.0" text="PERFORM STATION OPERATIONS" textFill="#fcf8f8">
+               <font>
+                  <Font name="Bauhaus 93" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="58.0" fitWidth="56.0" layoutX="649.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/16481730421594722074-128.png" />
+               </image>
+            </ImageView>
+            <ImageView blendMode="SCREEN" disable="true" fitHeight="69.0" fitWidth="77.0" layoutX="103.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/logo1.jpeg" />
+               </image>
+            </ImageView>
+            <Label fx:id="userNameLabel" layoutX="716.0" layoutY="45.0" prefHeight="34.0" prefWidth="116.0" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label />
+      <AnchorPane layoutX="52.0" layoutY="227.0" prefHeight="292.0" prefWidth="294.0" style="-fx-background-color: #20204b;">
+         <children>
+            <Label layoutX="56.0" layoutY="107.0" text="Enter New Price" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="108.0" layoutY="218.0" mnemonicParsing="false" onAction="#changeprice" prefHeight="38.0" prefWidth="126.0" style="-fx-background-color: #8fce00;" text="CHANGE PRICE" textFill="WHITE" />
+            <TextField fx:id="pricetext" layoutX="38.0" layoutY="159.0" prefHeight="26.0" prefWidth="218.0" />
+            <Label layoutX="48.0" layoutY="45.0" prefHeight="30.0" prefWidth="125.0" text="Current Price" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView blendMode="SCREEN" disable="true" fitHeight="39.0" fitWidth="44.0" layoutX="60.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/modes-of-payment.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="priceLabel" layoutX="178.0" layoutY="43.0" prefHeight="34.0" prefWidth="75.0" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="58.0" layoutY="154.0" text="Change Fuel Price" textFill="#fcf8f8">
+         <font>
+            <Font name="Arial" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="522.0" layoutY="154.0" text="Clean Item" textFill="#fcf8f8">
+         <font>
+            <Font name="Arial" size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="347.0" layoutY="549.0" mnemonicParsing="false" onAction="#goback" prefHeight="30.0" prefWidth="110.0" style="-fx-background-color: #cc0000;" text="GO BACK" textFill="WHITE" />
+      <AnchorPane layoutX="457.0" layoutY="227.0" prefHeight="292.0" prefWidth="294.0" style="-fx-background-color: #20204b;">
+         <children>
+            <Button layoutX="118.0" layoutY="174.0" mnemonicParsing="false" onAction="#clean" prefHeight="38.0" prefWidth="116.0" style="-fx-background-color: #8fce00;" text="CLEAN" textFill="WHITE" />
+            <Label layoutX="89.0" layoutY="39.0" text="Enter Item" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="cleantext" layoutX="38.0" layoutY="91.0" prefHeight="26.0" prefWidth="218.0" />
+            <ImageView blendMode="SCREEN" disable="true" fitHeight="39.0" fitWidth="44.0" layoutX="70.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/5042458131684487418-128.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

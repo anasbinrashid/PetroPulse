@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="835.0" style="-fx-background-color: #080838;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customer.ApplyMemberController">
+   <children>
+      <AnchorPane layoutX="-2.0" prefHeight="124.0" prefWidth="835.0" style="-fx-background-color: #20204b;">
+         <children>
+            <Label layoutX="218.0" layoutY="41.0" text="APPLY FOR MEMBERSHIP" textFill="#fcf8f8">
+               <font>
+                  <Font name="Bauhaus 93" size="39.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="58.0" fitWidth="56.0" layoutX="654.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/16481730421594722074-128.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="userNameLabel" layoutX="724.0" layoutY="41.0" prefHeight="42.0" prefWidth="102.0" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView blendMode="SCREEN" disable="true" fitHeight="68.0" fitWidth="79.0" layoutX="117.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/logo1.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label />
+      <AnchorPane layoutX="84.0" layoutY="273.0" prefHeight="241.0" prefWidth="306.0" style="-fx-background-color: #20204b;">
+         <children>
+            <Label layoutX="37.0" layoutY="21.0" text="Name" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="80.0" prefHeight="30.0" prefWidth="86.0" text="Email" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="134.0" prefHeight="30.0" prefWidth="86.0" text="Phone" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="191.0" prefHeight="30.0" prefWidth="86.0" text="Station" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="nameLabel" layoutX="123.0" layoutY="21.0" prefHeight="30.0" prefWidth="166.0" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="emailLabel" layoutX="123.0" layoutY="80.0" prefHeight="30.0" prefWidth="166.0" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="phoneLabel" layoutX="123.0" layoutY="134.0" prefHeight="30.0" prefWidth="166.0" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="stationLabel" layoutX="132.0" layoutY="191.0" prefHeight="30.0" prefWidth="154.0" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="107.0" layoutY="213.0" text="Confirm Details" textFill="#fcf8f8">
+         <font>
+            <Font name="Bauhaus 93" size="37.0" />
+         </font>
+      </Label>
+      <Button layoutX="370.0" layoutY="546.0" mnemonicParsing="false" onAction="#goback" prefHeight="30.0" prefWidth="110.0" style="-fx-background-color: #20204b;" text="GO BACK" textFill="WHITE" />
+      <Button layoutX="580.0" layoutY="317.0" mnemonicParsing="false" onAction="#enterPayment" prefHeight="56.0" prefWidth="131.0" style="-fx-background-color: #8fce00;" text="APPLY" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font></Button>
+      <ImageView blendMode="SCREEN" disable="true" fitHeight="42.0" fitWidth="41.0" layoutX="521.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Images/apply%20(1).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="271.0" layoutY="147.0" text="Membership Fee: Rs. 2500" textFill="#fcf8f8">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

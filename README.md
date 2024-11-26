@@ -120,20 +120,11 @@ The system uses the **PetroPulse** database schema:
 
 ---
 
-### Setting Up Secrets
-1. Go to the GitHub repository **Settings** > **Secrets and Variables** > **Actions**.
-2. Add the following secrets:
-   - `SERVER_HOST`: The IP address or domain of your deployment server.
-   - `SERVER_USER`: The username for server access.
-   - `SERVER_PASSWORD`: The password for server access.
-
----
-
 ## **Project Documentation**
 ### GitHub URLs:
-- **Documentation**: [Project Documentation](<repository-url>/tree/main/documentation)
-- **Presentation**: [Project Presentation](<repository-url>/tree/main/presentation)
-- **Code**: [Source Code](<repository-url>/tree/main/source_code)
+- **Documentation**: [Project Documentation](/tree/main/Documentation)
+- **Presentation**: [Project Presentation](/tree/main/Presentation)
+- **Code**: [Source Code](/tree/main/Source_Code)
 
 ---
 

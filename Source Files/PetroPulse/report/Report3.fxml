@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="835.0" style="-fx-background-color: #080838;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="report.Report3Controller">
+   <children>
+      <AnchorPane layoutX="54.0" layoutY="18.0" prefHeight="94.0" prefWidth="726.0" style="-fx-background-color: #20204b;">
+         <children>
+            <Label layoutX="145.0" layoutY="18.0" prefHeight="50.0" prefWidth="436.0" text="TOTAL CUSTOMERS" textFill="#fcf8f8">
+               <font>
+                  <Font name="Bauhaus 93" size="51.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label />
+      <TableView fx:id="Report3" layoutX="87.0" layoutY="186.0" prefHeight="323.0" prefWidth="662.0">
+         <columns>
+            <TableColumn fx:id="Name" prefWidth="163.20001983642578" text="Name" />
+            <TableColumn fx:id="TotalOrders" prefWidth="150.39996337890625" text="TotalOrders" />
+            <TableColumn fx:id="TotalPayments" prefWidth="158.39999389648438" text="TotalPayments" />
+            <TableColumn fx:id="TotalCustomers" prefWidth="185.5999755859375" text="TotalCustomers" />
+            <TableColumn fx:id="TotalFuel" prefWidth="158.39999389648438" text="TotalFuel" /> <!-- Add this column -->
+         </columns>
+      </TableView>
+      <Button layoutX="439.0" layoutY="128.0" onAction="#downloadReport" style="-fx-background-color: #28A745; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10;" text="Download Report" />
+      <Button layoutX="275.0" layoutY="128.0" onAction="#generateReport" style="-fx-background-color: #28A745; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10;" text="Generate Report" />
+      <Button layoutX="364.0" layoutY="529.0" onAction="#goback" prefHeight="38.0" prefWidth="105.0" style="-fx-background-color: white; -fx-text-fill: black; -fx-padding: 10;" text="Go Back" />
+   </children>
+</AnchorPane>

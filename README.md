@@ -123,7 +123,7 @@ The system uses the **PetroPulse** database schema:
 ## **Project Documentation**
 ### GitHub URLs:
 - **Documentation**: [Project Documentation](https://github.com/anasbinrashid/PetroPulse/tree/main/Documentation)
-- **Presentation**: [Project Presentation](https://github.com/anasbinrashid/PetroPulse/tree/main/Presentation_Slides)
+
 ---
 
 ## **How to Contribute**

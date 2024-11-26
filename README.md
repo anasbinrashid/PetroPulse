@@ -122,9 +122,9 @@ The system uses the **PetroPulse** database schema:
 
 ## **Project Documentation**
 ### GitHub URLs:
-- **Documentation**: [Project Documentation](/tree/main/Documentation)
-- **Presentation**: [Project Presentation](/tree/main/Presentation)
-- **Code**: [Source Code](/tree/main/Source_Code)
+- **Documentation**: [Project Documentation](https://github.com/anasbinrashid/PetroPulse/tree/main/Documentation)
+- **Presentation**: [Project Presentation](https://github.com/anasbinrashid/PetroPulse/tree/main/Presentation)
+- **Code**: [Source Code](https://github.com/anasbinrashid/PetroPulse/tree/main/Source_Files/PetroPulse)
 
 ---
 

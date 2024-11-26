@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="835.0" style="-fx-background-color: #080838;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="owner.OrderMaintenanceController">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="2.0" prefHeight="124.0" prefWidth="835.0" style="-fx-background-color: #20204b;">
+         <children>
+            <Label layoutX="222.0" layoutY="38.0" text="ORDER MAINTENANCE" textFill="#fcf8f8">
+               <font>
+                  <Font name="Bauhaus 93" size="42.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="48.0" fitWidth="50.0" layoutX="663.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/16481730421594722074-128.png" />
+               </image>
+            </ImageView>
+            <ImageView blendMode="SCREEN" disable="true" fitHeight="66.0" fitWidth="81.0" layoutX="124.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/logo1.jpeg" />
+               </image>
+            </ImageView>
+            <Label fx:id="userNameLabel" layoutX="717.0" layoutY="41.0" prefHeight="42.0" prefWidth="103.0" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Label />
+      <AnchorPane layoutX="186.0" layoutY="216.0" prefHeight="285.0" prefWidth="460.0" style="-fx-background-color: #20204b;">
+         <children>
+            <Label layoutX="56.0" layoutY="25.0" text="Item" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView blendMode="SCREEN" disable="true" fitHeight="42.0" fitWidth="48.0" layoutX="150.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/maintenance.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="56.0" layoutY="68.0" prefHeight="30.0" prefWidth="131.0" text="Description" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="desc" layoutX="198.0" layoutY="70.0" prefHeight="26.0" prefWidth="223.0" />
+            <Button layoutX="207.0" layoutY="222.0" mnemonicParsing="false" onAction="#order" prefHeight="38.0" prefWidth="103.0" style="-fx-background-color: #8fce00;" text="ORDER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <ComboBox fx:id="comboBox2" layoutX="198.0" layoutY="114.0" prefHeight="26.0" prefWidth="223.0" />
+            <ComboBox fx:id="comboBox1" layoutX="198.0" layoutY="27.0" prefHeight="26.0" prefWidth="223.0" />
+            <Label layoutX="56.0" layoutY="112.0" prefHeight="30.0" prefWidth="131.0" text="Station" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="comboBox3" layoutX="198.0" layoutY="158.0" prefHeight="26.0" prefWidth="223.0" />
+            <Label layoutX="56.0" layoutY="156.0" prefHeight="30.0" prefWidth="131.0" text="Supplier" textFill="#f4f0f0">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="279.0" layoutY="147.0" prefHeight="42.0" prefWidth="276.0" text="Enter Details" textFill="#fcf8f8">
+         <font>
+            <Font name="Arial" size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="384.0" layoutY="533.0" mnemonicParsing="false" onAction="#goback" prefHeight="30.0" prefWidth="110.0" style="-fx-background-color: #20204b;" text="GO BACK" textFill="WHITE" />
+      <ImageView blendMode="SCREEN" disable="true" fitHeight="41.0" fitWidth="38.0" layoutX="338.0" layoutY="529.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Images/8726322_signout_icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

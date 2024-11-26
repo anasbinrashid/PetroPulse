@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="835.0" style="-fx-background-color: #080838;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="owner.OrderFuelController">
+   <children>
+      <AnchorPane prefHeight="107.0" prefWidth="835.0" style="-fx-background-color: #20204b;">
+         <children>
+            <Label layoutX="282.0" layoutY="24.0" text="ORDER FUEL" textFill="#fcf8f8">
+               <font>
+                  <Font name="Bauhaus 93" size="51.0" />
+               </font>
+            </Label>
+            <ImageView blendMode="SCREEN" disable="true" fitHeight="70.0" fitWidth="84.0" layoutX="180.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/logo1.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="51.0" fitWidth="52.0" layoutX="656.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/16481730421594722074-128.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="userNameLabel" layoutX="714.0" layoutY="31.0" prefHeight="45.0" prefWidth="98.0" textFill="#fffafa">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="57.0" layoutY="204.0" prefHeight="30.0" prefWidth="175.0" text=" Amount of Fuel" textFill="#f4f0f0">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Slider fx:id="mySlider" blockIncrement="100.0" layoutX="221.0" layoutY="212.0" majorTickUnit="500.0" max="1000.0" prefHeight="14.0" prefWidth="406.0" showTickLabels="true" showTickMarks="true" style="-fx-background-color: #080838;" />
+      <Label fx:id="myLabel" layoutX="657.0" layoutY="196.0" prefHeight="46.0" prefWidth="150.0" textFill="#f7f1f1" />
+      <Label layoutX="256.0" layoutY="266.0" prefHeight="30.0" prefWidth="84.0" text="Item" textFill="#f4f0f0">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboBox" layoutX="416.0" layoutY="268.0" prefHeight="26.0" prefWidth="162.0" promptText="Choose The Fuel" />
+      <Label layoutX="256.0" layoutY="347.0" prefHeight="30.0" prefWidth="84.0" text="Date" textFill="#f4f0f0">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="datePicker" layoutX="416.0" layoutY="349.0" prefHeight="26.0" prefWidth="161.0" />
+      <AnchorPane layoutY="500.0" prefHeight="99.0" prefWidth="835.0" style="-fx-background-color: #20204b;">
+         <children>
+            <Button layoutX="649.0" layoutY="30.0" mnemonicParsing="false" onAction="#goback" prefHeight="38.0" prefWidth="128.0" style="-fx-background-color: white;" text="GO BACK">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button layoutX="346.0" layoutY="447.0" mnemonicParsing="false" onAction="#saleDetected" prefHeight="38.0" prefWidth="140.0" style="-fx-background-color: #8fce00;" text="ORDER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Label layoutX="256.0" layoutY="307.0" prefHeight="30.0" prefWidth="84.0" text="Supplier" textFill="#f4f0f0">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cb2" layoutX="416.0" layoutY="309.0" onAction="#showbill" prefHeight="26.0" prefWidth="162.0" promptText="Choose Supplier" />
+      <Label layoutX="256.0" layoutY="134.0" prefHeight="30.0" prefWidth="84.0" text="Station" textFill="#f4f0f0">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cb21" layoutX="416.0" layoutY="136.0" prefHeight="26.0" prefWidth="162.0" promptText="Choose Station" />
+      <Label fx:id="bill" layoutX="349.0" layoutY="397.0" prefHeight="30.0" prefWidth="298.0" style="-fx-text-alignment: center;" text="Bill: Rs. 0.0" textFill="#f4f0f0">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

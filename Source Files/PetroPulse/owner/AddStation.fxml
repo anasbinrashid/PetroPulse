@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="835.0" style="-fx-background-color: #080838;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="owner.AddStationController">
+   <children>
+      <Label layoutX="284.0" layoutY="270.0" style="-fx-font-size: 14;" text="Name" textFill="WHITE" />
+      <Label layoutX="284.0" layoutY="313.0" prefHeight="20.0" prefWidth="62.0" style="-fx-font-size: 14;" text="Location" textFill="WHITE" />
+      <TextField fx:id="fname" layoutX="398.0" layoutY="266.0" promptText="Enter Name..." />
+      <Label layoutX="284.0" layoutY="227.0" prefHeight="20.0" prefWidth="88.0" style="-fx-font-size: 14;" text="Company" textFill="WHITE" />
+      <TextField fx:id="fcom" layoutX="398.0" layoutY="224.0" promptText="Enter Company..." />
+      <Button layoutX="309.0" layoutY="458.0" mnemonicParsing="false" onAction="#enterclicked" prefHeight="34.0" prefWidth="98.0" text="Add" />
+      <Button layoutX="427.0" layoutY="458.0" mnemonicParsing="false" onAction="#showlogin" prefHeight="34.0" prefWidth="98.0" text="Go Back" />
+      <AnchorPane layoutX="-1.0" prefHeight="130.0" prefWidth="835.0" style="-fx-background-color: #20204b;">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="88.0" layoutX="185.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/logo1.jpeg" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="305.0" layoutY="38.0" style="-fx-text-fill: white;" text="ADD STATION" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Bauhaus 93" size="48.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="43.0" fitWidth="52.0" layoutX="669.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/16481730421594722074-128.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="userNameLabel" layoutX="722.0" layoutY="44.0" prefHeight="43.0" prefWidth="98.0" style="-fx-font-size: 14;" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="floc" layoutX="398.0" layoutY="310.0" promptText="Enter Location..." />
+      <Label layoutX="284.0" layoutY="353.0" prefHeight="20.0" prefWidth="62.0" style="-fx-font-size: 14;" text="Date" textFill="WHITE" />
+      <DatePicker fx:id="fdate" layoutX="398.0" layoutY="350.0" prefHeight="26.0" prefWidth="150.0" promptText="Choose Date..." />
+   </children>
+</AnchorPane>

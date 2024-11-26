@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="835.0" style="-fx-background-color: #080838;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="owner.SetEmployeeScheduleController">
+   <children>
+      <AnchorPane prefHeight="90.0" prefWidth="835.0" style="-fx-background-color: #20204b;">
+         <children>
+            <Label layoutX="209.0" layoutY="15.0" text="SCHEDULE EMPLOYEE" textFill="#fcf8f8">
+               <font>
+                  <Font name="Bauhaus 93" size="51.0" />
+               </font>
+            </Label>
+            <ImageView blendMode="SCREEN" disable="true" fitHeight="69.0" fitWidth="73.0" layoutX="119.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/logo1.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="46.0" fitWidth="48.0" layoutX="684.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/16481730421594722074-128.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="userNameLabel" layoutX="737.0" layoutY="26.0" prefHeight="37.0" prefWidth="84.0" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="231.0" layoutY="209.0" prefHeight="30.0" prefWidth="84.0" text="Day" textFill="#f4f0f0">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboBox" layoutX="397.0" layoutY="209.0" prefHeight="26.0" prefWidth="206.0" promptText="Choose the day" />
+      <Label layoutX="231.0" layoutY="256.0" prefHeight="30.0" prefWidth="84.0" text="Date" textFill="#f4f0f0">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="datePicker" layoutX="397.0" layoutY="256.0" prefHeight="26.0" prefWidth="206.0" />
+      <Label layoutX="231.0" layoutY="302.0" prefHeight="30.0" prefWidth="122.0" text="Start Time" textFill="#f4f0f0">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TimeText" layoutX="397.0" layoutY="302.0" prefHeight="26.0" prefWidth="206.0" />
+      <Button layoutX="337.0" layoutY="417.0" mnemonicParsing="false" onAction="#saleDetected" prefHeight="58.0" prefWidth="161.0" style="-fx-background-color: #8fce00;" text="SET SCHEDULE" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label layoutX="231.0" layoutY="346.0" prefHeight="30.0" prefWidth="122.0" text="End Time" textFill="#f4f0f0">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TimeText1" layoutX="397.0" layoutY="346.0" prefHeight="26.0" prefWidth="206.0" />
+      <ImageView blendMode="OVERLAY" disable="true" fitHeight="46.0" fitWidth="38.0" layoutX="154.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/clock%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="OVERLAY" disable="true" fitHeight="46.0" fitWidth="38.0" layoutX="154.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/clock%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="OVERLAY" disable="true" fitHeight="46.0" fitWidth="38.0" layoutX="154.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/time-management.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="OVERLAY" disable="true" fitHeight="46.0" fitWidth="38.0" layoutX="154.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/calendar%20(1).png" />
+         </image>
+      </ImageView>
+      <Button layoutX="648.0" layoutY="525.0" mnemonicParsing="false" onAction="#goback" prefHeight="38.0" prefWidth="130.0" style="-fx-background-color: #ffffff;" text="GO BACK">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="231.0" layoutY="161.0" prefHeight="30.0" prefWidth="130.0" text="Worker Name" textFill="#f4f0f0">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboBox1" layoutX="397.0" layoutY="161.0" prefHeight="26.0" prefWidth="206.0" promptText="Choose worker" />
+   </children>
+</AnchorPane>

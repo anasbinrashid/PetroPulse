@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="835.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LandingController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="835.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Images/2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="91.0" layoutX="586.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Images/logo1.jpeg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="496.0" layoutY="139.0" style="-fx-text-fill: white;" text="WELCOME TO" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="548.0" layoutY="285.0" mnemonicParsing="false" onAction="#switchscenetologinowner" prefHeight="54.0" prefWidth="168.0" style="-fx-background-color: lightgray; -fx-text-fill: black; -fx-font-size: 20;" text="Owner" textAlignment="CENTER" />
+      <Button layoutX="548.0" layoutY="351.0" mnemonicParsing="false" onAction="#switchscenetologinworker" prefHeight="54.0" prefWidth="168.0" style="-fx-background-color: lightgray; -fx-text-fill: black; -fx-font-size: 20;" text="Worker" textAlignment="CENTER" />
+      <Button layoutX="548.0" layoutY="415.0" mnemonicParsing="false" onAction="#switchscenetologincustomer" prefHeight="54.0" prefWidth="168.0" style="-fx-background-color: lightgray; -fx-text-fill: black; -fx-font-size: 20;" text="Customer" textAlignment="CENTER" />
+      <Label alignment="CENTER" layoutX="474.0" layoutY="187.0" style="-fx-text-fill: white;" text="PETROPULSE" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="55.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="491.0" layoutY="515.0" prefHeight="1.0" prefWidth="279.0" style="-fx-text-fill: white; -fx-background-color: black;" text="© 2024 PetroPulse - All Rights Reserved" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

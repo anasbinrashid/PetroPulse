@@ -38,14 +38,14 @@ This project demonstrates object-oriented programming principles, layered archit
 ---
 
 ## **Use Cases**
-**Manage Sales**: Process customer transactions, calculate total fuel cost, and update inventory.
-**View Loyalty Points**: Allow customers to get loyalty points during transactions.
-**Manage Stations**: Add, update, and remove station details.
-**Manage Workers**: Hire new workers, assign roles, and schedule shifts.
-**Track Fuel Orders**: Place orders for fuel and manage delivery schedules.
-**Inventory Management**: Update fuel prices, capacity, and inventory levels.
-**Maintenance Requests**: Log and track maintenance activities for equipment.
-**Reporting**: Generate detailed reports for transactions, inventory, and revenue.
+- **Manage Sales**: Process customer transactions, calculate total fuel cost, and update inventory.
+- **View Loyalty Points**: Allow customers to get loyalty points during transactions.
+- **Manage Stations**: Add, update, and remove station details.
+- **Manage Workers**: Hire new workers, assign roles, and schedule shifts.
+- **Track Fuel Orders**: Place orders for fuel and manage delivery schedules.
+- **Inventory Management**: Update fuel prices, capacity, and inventory levels.
+- **Maintenance Requests**: Log and track maintenance activities for equipment.
+- **Reporting**: Generate detailed reports for transactions, inventory, and revenue.
 
 ---
 
